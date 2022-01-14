@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  background-color: #f8f8f8;
+  height: 50px;
+  align-items: center;
+}
+
+.navbar__icons {
+  background-color: bisque;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.fa-user-plus,
+.fa-search,
+.fa-shopping-cart {
+  font-size: 24px;
+}
+
+.fa-bars {
+  color: #ff5959;
+  font-size: 24px;
+}
