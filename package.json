@@ -1,0 +1,17 @@
+{
+  "name": "exercise-npm",
+  "version": "1.0.0",
+  "description": "## María Lunarillos",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "",
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.48.0",
+    "husky": "^7.0.0"
+  }
+}
