@@ -40,6 +40,17 @@ nav {
   margin: 0 30px;
 }
 
+.social-media,
+.fa-facebook-f,
+.fa-twitter,
+.fa-instagram,
+.fa-pinterest-p,
+.fa-youtube {
+  margin: 0 5px;
+  font-size: 21px;
+  display: none;
+}
+
 .fa-search {
   background-color: #bbb8b6;
   color: #fff;
@@ -66,5 +77,14 @@ nav {
   /* true en pantallas con ancho de 600px o más */
   .user-login {
     display: block;
+  }
+
+  .social-media,
+  .fa-facebook-f,
+  .fa-twitter,
+  .fa-instagram,
+  .fa-pinterest-p,
+  .fa-youtube {
+    display: inline-flex;
   }
 }
