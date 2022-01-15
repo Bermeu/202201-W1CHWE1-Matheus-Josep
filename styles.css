@@ -148,6 +148,24 @@ nav {
 }
 /* End CSS for Navbar */
 
+/* Start CSS for Main */
+
+h1 {
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  padding: 15px 30px;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+.category {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+/* End CSS for Main */
+
 @media (min-width: 600px) {
   .main-logo__horizontal {
     display: flex;
