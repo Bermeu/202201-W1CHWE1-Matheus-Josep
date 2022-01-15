@@ -208,6 +208,33 @@ h1 {
 
 /* End CSS for Main */
 
+/* Start CSS for Ecommerce Details section */
+
+.ecommerce-details {
+  background-color: #e8e6e5;
+}
+
+.delivery,
+.time,
+.return,
+.credit-card {
+  color: #67625f;
+  font-size: 3em;
+}
+
+.ecommerce__title {
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.ecommerce__text {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+/* End CSS for Ecommerce Details section */
+
 @media (min-width: 600px) {
   .main-logo__horizontal {
     display: flex;
