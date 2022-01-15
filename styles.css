@@ -393,6 +393,50 @@ label[for="privacy"] a {
 
 /* End CSS for newsletter footer section */
 
+/* Start CSS for contact footer section */
+
+.fa-envelope,
+.fa-info-circle,
+.fa-shopping-cart {
+  color: #ff5959;
+  font-size: 21px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact-info {
+  background-color: #f8f8f8;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-transform: uppercase;
+  padding: 40px 30px;
+}
+
+.contact-info--header {
+  font-weight: 400;
+  font-size: 14px;
+  color: #ff5959;
+  text-transform: uppercase;
+}
+
+.contact-info--icon {
+  padding: 10px 0;
+}
+
+footer {
+  background-color: #ff5959;
+  color: #fff;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* End CSS for contact footer section */
+
 @media (min-width: 600px) {
   .main-logo__horizontal {
     display: flex;
