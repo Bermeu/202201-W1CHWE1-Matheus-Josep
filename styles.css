@@ -155,8 +155,8 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 0.2em;
   padding: 15px 30px;
-  border-top: 3px solid black;
-  border-bottom: 3px solid black;
+  border-top: 3px solid #0000;
+  border-bottom: 3px solid #0000;
 }
 
 .category {
@@ -164,6 +164,21 @@ h1 {
   justify-content: center;
   align-self: center;
 }
+
+.button-more {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.button-more-active {
+  color: #fff;
+  background-color: #ff5959;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 /* End CSS for Main */
 
 @media (min-width: 600px) {
