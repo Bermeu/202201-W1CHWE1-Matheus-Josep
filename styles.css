@@ -234,6 +234,13 @@ h1 {
   padding: 10px;
 }
 
+.delivery:hover,
+.time:hover,
+.return:hover,
+.credit-card:hover {
+  color: #ff5959;
+}
+
 .ecommerce__title {
   font-size: 15px;
   margin: 20px 0 0 0;
