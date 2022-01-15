@@ -51,6 +51,14 @@ nav {
   display: none;
 }
 
+.fa-facebook-f:hover,
+.fa-twitter:hover,
+.fa-instagram:hover,
+.fa-pinterest-p:hover,
+.fa-youtube:hover {
+  color: #ff5959;
+}
+
 .fa-search {
   background-color: #bbb8b6;
   color: #fff;
