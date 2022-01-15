@@ -208,6 +208,56 @@ h1 {
 
 /* End CSS for Main */
 
+/* Start CSS for Ecommerce Details section */
+
+.ecommerce-details--wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.ecommerce-details {
+  background-color: #e8e6e5;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.delivery,
+.time,
+.return,
+.credit-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #67625f;
+  font-size: 3em;
+  padding: 10px;
+}
+
+.delivery:hover,
+.time:hover,
+.return:hover,
+.credit-card:hover {
+  color: #ff5959;
+}
+
+.ecommerce__title {
+  font-size: 15px;
+  margin: 20px 0 0 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.ecommerce__text {
+  font-size: 12px;
+  margin: 5px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* End CSS for Ecommerce Details section */
+
 @media (min-width: 600px) {
   .main-logo__horizontal {
     display: flex;
@@ -228,5 +278,10 @@ h1 {
   .fa-pinterest-p,
   .fa-youtube {
     display: inline-flex;
+  }
+
+  .ecommerce-details--wrap {
+    display: flex;
+    flex-direction: row;
   }
 }
