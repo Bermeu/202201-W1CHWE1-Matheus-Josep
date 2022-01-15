@@ -29,6 +29,11 @@ nav {
   margin: 0 15px;
 }
 
+.user-login {
+  font-size: 14px;
+  display: none;
+}
+
 .fa-bars {
   color: #ff5959;
   font-size: 24px;
@@ -55,4 +60,11 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (min-width: 600px) {
+  /* true en pantallas con ancho de 600px o más */
+  .user-login {
+    display: block;
+  }
 }
