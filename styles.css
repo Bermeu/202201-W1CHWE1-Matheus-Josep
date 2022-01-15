@@ -204,16 +204,51 @@ h1 {
   padding: 30px;
 }
 
-.category-1,
-.category-2,
-.category-3 {
+.category-image {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-end;
   margin: 10px;
   width: 400px;
   height: 150px;
-  background-color: grey;
+}
+
+.image1 {
+  background-image: url("images/fiestapastelcandy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image2 {
+  background-image: url("images/corazones.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image3 {
+  background-image: url("images/animales.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.category-image div {
+  background-color: white;
+  height: 75px;
+  width: 200px;
+  padding-left: 20px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  opacity: 75%;
+}
+
+.categories-anchor a:link {
+  text-decoration: none;
+}
+
+.categories-anchor a:hover {
+  text-decoration: underline;
 }
 
 .button-more {
