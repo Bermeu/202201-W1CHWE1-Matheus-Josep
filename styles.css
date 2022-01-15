@@ -28,31 +28,44 @@ nav {
   align-items: flex-end;
   list-style: none;
   background-color: #ff5959;
-  width: 70px;
-  height: 170px;
+  width: 80px;
+  height: 130px;
+  margin: 0 2px;
 }
-
-/* .main-logo--maria::before {
-  content: "hey";
-  height: 100px;
-  background-color: brown;
-} */
 
 .main-logo--cucute {
   display: flex;
   list-style: none;
   background-color: #6199af;
   padding: 10px;
-  width: 70px;
+  width: 60px;
+  margin: 0 2px;
   height: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-logo--cucute-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .main-logo--mumuchu {
   list-style: none;
   background-color: #f6b436;
   padding: 10px;
-  width: 70px;
+  width: 60px;
+  margin: 0 2px;
   height: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-logo--mumuchu-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .navbar__icons {
