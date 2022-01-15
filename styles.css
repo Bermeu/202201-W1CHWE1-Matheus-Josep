@@ -212,25 +212,34 @@ h1 {
 
 .ecommerce-details {
   background-color: #e8e6e5;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
 }
 
 .delivery,
 .time,
 .return,
 .credit-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   color: #67625f;
   font-size: 3em;
+  padding: 10px;
 }
 
 .ecommerce__title {
   font-size: 15px;
   font-weight: bold;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .ecommerce__text {
   font-size: 12px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 /* End CSS for Ecommerce Details section */
