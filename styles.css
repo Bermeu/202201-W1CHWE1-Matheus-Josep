@@ -258,6 +258,43 @@ h1 {
 
 /* End CSS for Ecommerce Details section */
 
+/* Start CSS for Footer section */
+
+.follow-us {
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-transform: uppercase;
+  padding: 30px;
+}
+
+.follow-us--icons {
+  color: #ff5959;
+  padding: 0 100px 30px;
+  border-bottom: 1px solid #bbb8b6;
+}
+
+.fa-facebook-square,
+.fa-twitter-square,
+.fa-instagram-square,
+.fa-pinterest-square,
+.fa-youtube-square {
+  margin: 0 5px;
+  font-size: 27px;
+}
+
+.fa-facebook-square:hover,
+.fa-twitter-square:hover,
+.fa-instagram-square:hover,
+.fa-pinterest-square:hover,
+.fa-youtube-square:hover {
+  color: #bbb8b6;
+}
+
+/* End CSS for Footer section */
+
 @media (min-width: 600px) {
   .main-logo__horizontal {
     display: flex;
