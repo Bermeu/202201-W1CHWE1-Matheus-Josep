@@ -162,6 +162,7 @@ nav {
 .logo {
   padding-top: 30px;
   padding-right: 50px;
+  display: flex;
 }
 
 .pie {
@@ -395,6 +396,10 @@ label[for="privacy"] a {
 @media (min-width: 600px) {
   .main-logo__horizontal {
     display: flex;
+  }
+
+  .logo {
+    display: none;
   }
 
   .user-login {
