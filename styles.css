@@ -151,7 +151,7 @@ nav {
 /* Start CSS for header */
 
 .header {
-  height: 300px;
+  height: 280px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -161,7 +161,7 @@ nav {
 
 .logo {
   padding-top: 30px;
-  padding-right: 50px;
+  padding-right: 30px;
 }
 
 .pie {
@@ -193,6 +193,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 100px;
 }
 
 .categories {
