@@ -303,19 +303,26 @@ h1 {
 /* End CSS for social footer section */
 
 /* Start CSS for newsletter footer section */
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 
 .newsletter-signup {
   background-color: #f8f8f8;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-transform: uppercase;
-  padding: 30px;
+  padding: 0 30px;
 }
 
 input[type="text"] {
-  height: 35px;
+  height: 40px;
   width: 300px;
   margin: 10px;
   font-size: 15px;
@@ -324,7 +331,7 @@ input[type="text"] {
 }
 
 button[type="submit"] {
-  height: 35px;
+  height: 40px;
   padding: 0 20px;
   background-color: #ff5959;
   color: #fff;
@@ -335,6 +342,28 @@ button[type="submit"] {
 
 button[type="submit"]::after {
   content: " >";
+}
+
+button[type="submit"]:hover {
+  background-color: rgba(229, 89, 89, 0.5);
+}
+
+.newsletter-privacy {
+  display: flex;
+  justify-content: center;
+  padding: 0 100px 30px;
+  border-bottom: 1px solid #bbb8b6;
+}
+
+label[for="privacy"] {
+  font-weight: 400;
+  font-size: 14px;
+  color: #67625f;
+  text-transform: capitalize;
+}
+
+label[for="privacy"] a {
+  color: #67625f;
 }
 
 /* End CSS for newsletter footer section */
