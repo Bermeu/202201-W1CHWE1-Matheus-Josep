@@ -27,6 +27,7 @@ nav {
   display: flex;
   align-items: flex-end;
   list-style: none;
+  justify-content: center;
   background-color: #ff5959;
   width: 80px;
   height: 130px;
@@ -45,6 +46,11 @@ nav {
   align-items: center;
 }
 
+.main-logo--cucute:hover {
+  height: 130px;
+  align-items: flex-end;
+}
+
 .main-logo--cucute-img {
   display: flex;
   align-items: center;
@@ -52,6 +58,7 @@ nav {
 }
 
 .main-logo--mumuchu {
+  display: flex;
   list-style: none;
   background-color: #f6b436;
   padding: 10px;
@@ -60,6 +67,11 @@ nav {
   height: fit-content;
   justify-content: center;
   align-items: center;
+}
+
+.main-logo--mumuchu:hover {
+  height: 130px;
+  align-items: flex-end;
 }
 
 .main-logo--mumuchu-img {
