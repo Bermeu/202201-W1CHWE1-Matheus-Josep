@@ -148,6 +148,29 @@ nav {
 }
 /* End CSS for Navbar */
 
+/* Start CSS for header */
+
+.header {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  /*justify-content: space-evenly;*/
+}
+
+.logo {
+  padding-top: 30px;
+  padding-right: 50px;
+}
+
+.pie {
+  position: relative;
+  top: 120px;
+}
+
+/* End CSS for header */
+
 /* Start CSS for Main */
 
 main {
