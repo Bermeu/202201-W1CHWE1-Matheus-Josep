@@ -15,22 +15,44 @@ nav {
   align-items: center;
 }
 
+.main-logo {
+  height: 100px;
+}
+
+.main-logo__horizontal {
+  display: none;
+}
+
 .main-logo--maria {
+  display: flex;
+  align-items: flex-end;
   list-style: none;
   background-color: #ff5959;
   width: 70px;
+  height: 170px;
 }
 
+/* .main-logo--maria::before {
+  content: "hey";
+  height: 100px;
+  background-color: brown;
+} */
+
 .main-logo--cucute {
+  display: flex;
   list-style: none;
   background-color: #6199af;
+  padding: 10px;
   width: 70px;
+  height: fit-content;
 }
 
 .main-logo--mumuchu {
   list-style: none;
   background-color: #f6b436;
+  padding: 10px;
   width: 70px;
+  height: fit-content;
 }
 
 .navbar__icons {
@@ -102,8 +124,16 @@ nav {
 /* End CSS for Navbar */
 
 @media (min-width: 600px) {
+  .main-logo__horizontal {
+    display: flex;
+  }
+
   .user-login {
     display: block;
+  }
+
+  .fa-bars {
+    display: none;
   }
 
   .social-media,
