@@ -258,7 +258,14 @@ h1 {
 
 /* End CSS for Ecommerce Details section */
 
-/* Start CSS for Footer section */
+/* Start CSS for social footer section */
+
+.follow-us-header,
+.newsletter-signup-header {
+  font-weight: 400;
+  font-size: 14px;
+  color: #67625f;
+}
 
 .follow-us {
   background-color: #f8f8f8;
@@ -293,7 +300,44 @@ h1 {
   color: #bbb8b6;
 }
 
-/* End CSS for Footer section */
+/* End CSS for social footer section */
+
+/* Start CSS for newsletter footer section */
+
+.newsletter-signup {
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-transform: uppercase;
+  padding: 30px;
+}
+
+input[type="text"] {
+  height: 35px;
+  width: 300px;
+  margin: 10px;
+  font-size: 15px;
+  background-color: #fff;
+  border: 1px solid #67625f;
+}
+
+button[type="submit"] {
+  height: 35px;
+  padding: 0 20px;
+  background-color: #ff5959;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+}
+
+button[type="submit"]::after {
+  content: " >";
+}
+
+/* End CSS for newsletter footer section */
 
 @media (min-width: 600px) {
   .main-logo__horizontal {
