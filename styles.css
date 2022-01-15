@@ -162,6 +162,7 @@ nav {
 .logo {
   padding-top: 30px;
   padding-right: 50px;
+  display: flex;
 }
 
 .pie {
@@ -302,7 +303,7 @@ h1 {
 
 .follow-us--icons {
   color: #ff5959;
-  padding: 0 100px 30px;
+  padding: 0 50px 30px;
   border-bottom: 1px solid #bbb8b6;
 }
 
@@ -374,8 +375,9 @@ button[type="submit"]:hover {
 .newsletter-privacy {
   display: flex;
   justify-content: center;
-  padding: 0 100px 30px;
+  padding: 10px 50px 30px;
   border-bottom: 1px solid #bbb8b6;
+  align-items: flex-start;
 }
 
 label[for="privacy"] {
@@ -394,6 +396,10 @@ label[for="privacy"] a {
 @media (min-width: 600px) {
   .main-logo__horizontal {
     display: flex;
+  }
+
+  .logo {
+    display: none;
   }
 
   .user-login {
