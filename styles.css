@@ -150,19 +150,46 @@ nav {
 
 /* Start CSS for Main */
 
+main {
+  background-color: #f8f8f8;
+}
+
 h1 {
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   padding: 15px 30px;
-  border-top: 3px solid #0000;
-  border-bottom: 3px solid #0000;
-}
-
-.category {
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
   display: flex;
   justify-content: center;
-  align-self: center;
+  align-items: center;
+}
+
+.category-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.category-1,
+.category-2,
+.category-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  width: 400px;
+  height: 150px;
+  background-color: grey;
 }
 
 .button-more {
