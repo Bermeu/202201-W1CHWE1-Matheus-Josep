@@ -285,6 +285,14 @@ h1 {
   font-size: 27px;
 }
 
+.fa-facebook-square:hover,
+.fa-twitter-square:hover,
+.fa-instagram-square:hover,
+.fa-pinterest-square:hover,
+.fa-youtube-square:hover {
+  color: #bbb8b6;
+}
+
 /* End CSS for Footer section */
 
 @media (min-width: 600px) {
