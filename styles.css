@@ -7,11 +7,30 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
+/* Start CSS for Navbar */
 nav {
   display: flex;
   background-color: #f8f8f8;
   height: 50px;
   align-items: center;
+}
+
+.main-logo--maria {
+  list-style: none;
+  background-color: #ff5959;
+  width: 70px;
+}
+
+.main-logo--cucute {
+  list-style: none;
+  background-color: #6199af;
+  width: 70px;
+}
+
+.main-logo--mumuchu {
+  list-style: none;
+  background-color: #f6b436;
+  width: 70px;
 }
 
 .navbar__icons {
@@ -80,9 +99,9 @@ nav {
   align-items: center;
   justify-content: center;
 }
+/* End CSS for Navbar */
 
 @media (min-width: 600px) {
-  /* true en pantallas con ancho de 600px o más */
   .user-login {
     display: block;
   }
