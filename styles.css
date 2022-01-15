@@ -210,6 +210,11 @@ h1 {
 
 /* Start CSS for Ecommerce Details section */
 
+.ecommerce-details--wrap {
+  display: flex;
+  flex-direction: column;
+}
+
 .ecommerce-details {
   background-color: #e8e6e5;
   display: flex;
@@ -231,6 +236,7 @@ h1 {
 
 .ecommerce__title {
   font-size: 15px;
+  margin: 20px 0 0 0;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
@@ -238,6 +244,7 @@ h1 {
 
 .ecommerce__text {
   font-size: 12px;
+  margin: 5px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -264,5 +271,10 @@ h1 {
   .fa-pinterest-p,
   .fa-youtube {
     display: inline-flex;
+  }
+
+  .ecommerce-details--wrap {
+    display: flex;
+    flex-direction: row;
   }
 }
