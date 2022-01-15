@@ -7,11 +7,77 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
+/* Start CSS for Navbar */
 nav {
   display: flex;
   background-color: #f8f8f8;
   height: 50px;
   align-items: center;
+}
+
+.main-logo {
+  height: 100px;
+}
+
+.main-logo__horizontal {
+  display: none;
+}
+
+.main-logo--maria {
+  display: flex;
+  align-items: flex-end;
+  list-style: none;
+  justify-content: center;
+  background-color: #ff5959;
+  width: 80px;
+  height: 130px;
+  margin: 0 2px;
+}
+
+.main-logo--cucute {
+  display: flex;
+  list-style: none;
+  background-color: #6199af;
+  padding: 10px;
+  width: 60px;
+  margin: 0 2px;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-logo--cucute:hover {
+  height: 130px;
+  align-items: flex-end;
+}
+
+.main-logo--cucute-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-logo--mumuchu {
+  display: flex;
+  list-style: none;
+  background-color: #f6b436;
+  padding: 10px;
+  width: 60px;
+  margin: 0 2px;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-logo--mumuchu:hover {
+  height: 130px;
+  align-items: flex-end;
+}
+
+.main-logo--mumuchu-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .navbar__icons {
@@ -29,10 +95,34 @@ nav {
   margin: 0 15px;
 }
 
+.user-login {
+  font-size: 14px;
+  display: none;
+}
+
 .fa-bars {
   color: #ff5959;
   font-size: 24px;
   margin: 0 30px;
+}
+
+.social-media,
+.fa-facebook-f,
+.fa-twitter,
+.fa-instagram,
+.fa-pinterest-p,
+.fa-youtube {
+  margin: 0 5px;
+  font-size: 21px;
+  display: none;
+}
+
+.fa-facebook-f:hover,
+.fa-twitter:hover,
+.fa-instagram:hover,
+.fa-pinterest-p:hover,
+.fa-youtube:hover {
+  color: #ff5959;
 }
 
 .fa-search {
@@ -55,4 +145,28 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+/* End CSS for Navbar */
+
+@media (min-width: 600px) {
+  .main-logo__horizontal {
+    display: flex;
+  }
+
+  .user-login {
+    display: block;
+  }
+
+  .fa-bars {
+    display: none;
+  }
+
+  .social-media,
+  .fa-facebook-f,
+  .fa-twitter,
+  .fa-instagram,
+  .fa-pinterest-p,
+  .fa-youtube {
+    display: inline-flex;
+  }
 }
