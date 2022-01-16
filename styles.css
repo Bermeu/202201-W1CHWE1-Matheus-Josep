@@ -267,6 +267,18 @@ h1 {
 
 /* End CSS for Main */
 
+/* Start CSS for Our-Brands section */
+
+.empty-block {
+  height: 150px;
+}
+
+.our-brands {
+  display: none;
+}
+
+/* End CSS for Our-Brands section */
+
 /* Start CSS for Ecommerce Details section */
 
 .ecommerce-details--wrap {
