@@ -251,6 +251,10 @@ h1 {
   text-decoration: underline;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 .button-more {
   display: flex;
   justify-content: center;
@@ -266,6 +270,18 @@ h1 {
 }
 
 /* End CSS for Main */
+
+/* Start CSS for Our-Brands section */
+
+.empty-block {
+  height: 100px;
+}
+
+.our-brands {
+  display: none;
+}
+
+/* End CSS for Our-Brands section */
 
 /* Start CSS for Ecommerce Details section */
 
@@ -501,5 +517,36 @@ footer {
   .ecommerce-details--wrap {
     display: flex;
     flex-direction: row;
+  }
+
+  .our-brands {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 80px;
+
+    /*width: 80%;*/
+  }
+
+  .our-brands-logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-left: 16%;
+    padding-right: 16%;
+    justify-content: center;
+  }
+
+  .logo-our-brand {
+    filter: grayscale(100%);
+    opacity: 80%;
+  }
+
+  .logo-our-brand:hover {
+    filter: grayscale(0%);
+    opacity: 100%;
+  }
+  .empty-block {
+    /*display: none;*/
   }
 }
