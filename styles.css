@@ -95,6 +95,11 @@ nav {
   margin: 0 15px;
 }
 
+.user-menu:hover {
+  color: #ff5959;
+  cursor: pointer;
+}
+
 .user-login {
   font-size: 14px;
   display: none;
@@ -471,6 +476,11 @@ label[for="privacy"] a {
   font-size: 14px;
   color: #ff5959;
   text-transform: uppercase;
+  cursor: pointer;
+}
+
+.contact-info--header:hover {
+  text-decoration: underline;
 }
 
 .contact-info--icon {
