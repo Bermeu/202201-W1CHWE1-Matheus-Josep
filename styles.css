@@ -270,7 +270,7 @@ h1 {
 /* Start CSS for Our-Brands section */
 
 .empty-block {
-  height: 150px;
+  height: 100px;
 }
 
 .our-brands {
@@ -519,7 +519,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 100px;
+    gap: 80px;
 
     /*width: 80%;*/
   }
@@ -530,7 +530,7 @@ footer {
     gap: 30px;
     padding-left: 16%;
     padding-right: 16%;
-    align-content: center;
+    justify-content: center;
   }
 
   .logo-our-brand {
@@ -543,6 +543,6 @@ footer {
     opacity: 100%;
   }
   .empty-block {
-    display: none;
+    /*display: none;*/
   }
 }
