@@ -514,4 +514,35 @@ footer {
     display: flex;
     flex-direction: row;
   }
+
+  .our-brands {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+
+    /*width: 80%;*/
+  }
+
+  .our-brands-logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-left: 16%;
+    padding-right: 16%;
+    align-content: center;
+  }
+
+  .logo-our-brand {
+    filter: grayscale(100%);
+    opacity: 80%;
+  }
+
+  .logo-our-brand:hover {
+    filter: grayscale(0%);
+    opacity: 100%;
+  }
+  .empty-block {
+    display: none;
+  }
 }
