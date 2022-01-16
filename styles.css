@@ -87,6 +87,7 @@ nav {
   align-items: center;
   width: min-content;
   height: 50px;
+  color: #2e2925;
 }
 
 .fa-user-plus,
@@ -160,7 +161,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: white;
+  background-color: #fff;
   /*justify-content: space-evenly;*/
 }
 
@@ -187,8 +188,8 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 0.2em;
   padding: 15px 30px;
-  border-top: 3px solid #000;
-  border-bottom: 3px solid #000;
+  border-top: 2px solid #2e2925;
+  border-bottom: 2px solid #2e2925;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -556,6 +557,7 @@ footer {
     filter: grayscale(0%);
     opacity: 100%;
   }
+
   .empty-block {
     /*display: none;*/
   }
