@@ -579,8 +579,6 @@ footer {
 
   .header-row1 {
     display: flex;
-    /*justify-content: center;*/
-
     gap: 350px;
   }
 
@@ -597,8 +595,8 @@ footer {
     gap: 40px;
   }
 
-  .header-row2 {
-  }
+  /* .header-row2 {
+  } */
 
   .container-buttons {
     display: flex;
@@ -611,27 +609,37 @@ footer {
 
   .button-novedades {
     display: flex;
-    flex-direction: row;
+    align-items: center;
     background-color: rgb(181, 204, 97);
     gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    color: #fff;
   }
 
   .button-ofertas {
     display: flex;
-    flex-direction: row;
+    align-items: center;
     background-color: rgb(145, 77, 161);
     gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    color: #fff;
   }
 
   .input-que-hacer {
     display: flex;
-    flex-direction: row;
-    gap: 10px;
+    align-items: center;
     justify-content: center;
+    gap: 0px;
+    height: 35px;
   }
 
   .input-que-hacer img {
     background-color: rgb(169, 178, 185);
+    height: 40px;
   }
 
   .container-icons5 {
