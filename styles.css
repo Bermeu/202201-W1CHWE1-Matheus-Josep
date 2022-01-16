@@ -148,9 +148,9 @@ nav {
 }
 /* End CSS for Navbar */
 
-/* Start CSS for header */
+/* Start CSS for header-mobile */
 
-.header {
+.header-mobile {
   height: 280px;
   display: flex;
   flex-direction: column;
@@ -169,7 +169,15 @@ nav {
   top: 120px;
 }
 
-/* End CSS for header */
+/* End CSS for header-mobile */
+
+/* Start CSS for header-mobile */
+
+.header-desktop {
+  display: none;
+}
+
+/* End CSS for header-desktop */
 
 /* Start CSS for Main */
 
@@ -546,7 +554,12 @@ footer {
     filter: grayscale(0%);
     opacity: 100%;
   }
-  .empty-block {
-    /*display: none;*/
+
+  .header-mobile {
+    display: none;
+  }
+
+  .header-desktop {
+    display: flex;
   }
 }
