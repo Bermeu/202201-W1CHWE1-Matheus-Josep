@@ -148,9 +148,9 @@ nav {
 }
 /* End CSS for Navbar */
 
-/* Start CSS for header */
+/* Start CSS for header-mobile */
 
-.header {
+.header-mobile {
   height: 280px;
   display: flex;
   flex-direction: column;
@@ -169,7 +169,15 @@ nav {
   top: 120px;
 }
 
-/* End CSS for header */
+/* End CSS for header-mobile */
+
+/* Start CSS for header-mobile */
+
+.header-desktop {
+  display: none;
+}
+
+/* End CSS for header-desktop */
 
 /* Start CSS for Main */
 
@@ -546,7 +554,81 @@ footer {
     filter: grayscale(0%);
     opacity: 100%;
   }
-  .empty-block {
-    /*display: none;*/
+
+  .header-mobile {
+    display: none;
+  }
+
+  .header-desktop {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .header-row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .header-row1-col1 {
+  }
+
+  .header-row1-col2 {
+  }
+
+  .header-row2 {
+  }
+
+  .container-buttons {
+  }
+
+  .button-novedades {
+  }
+
+  .button-ofertas {
+  }
+
+  .input-que-hacer {
+  }
+
+  .container-icons5 {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+  }
+
+  .container-icons4 {
+    display: flex;
+    gap: 8px;
+  }
+
+  .icons4 {
+    background-color: lightgrey;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+  }
+
+  .icons4:hover {
+    background-color: red;
+  }
+
+  .icon1 {
+    background-color: red;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+  }
+
+  .icon1:hover {
+    background-color: lightgrey;
   }
 }
