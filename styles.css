@@ -566,7 +566,6 @@ footer {
     opacity: 100%;
   }
 
-
   .header-mobile {
     display: none;
   }
@@ -576,22 +575,17 @@ footer {
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
-    background-color: green;
-    width: 100%;
   }
 
   .header-row1 {
     display: flex;
-    /*justify-content: center;*/
-
-    /*gap: 350px;*/
-    width: 100%;
+    gap: 350px;
   }
 
   .header-row1-col1 {
     display: flex;
     justify-content: flex-start;
-    background-color: red;
+
     align-items: center;
   }
 
@@ -601,8 +595,8 @@ footer {
     gap: 40px;
   }
 
-  .header-row2 {
-  }
+  /* .header-row2 {
+  } */
 
   .container-buttons {
     display: flex;
@@ -615,27 +609,37 @@ footer {
 
   .button-novedades {
     display: flex;
-    flex-direction: row;
+    align-items: center;
     background-color: rgb(181, 204, 97);
     gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    color: #fff;
   }
 
   .button-ofertas {
     display: flex;
-    flex-direction: row;
+    align-items: center;
     background-color: rgb(145, 77, 161);
     gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    color: #fff;
   }
 
   .input-que-hacer {
     display: flex;
-    flex-direction: row;
-    gap: 10px;
+    align-items: center;
     justify-content: center;
+    gap: 0px;
+    height: 35px;
   }
 
   .input-que-hacer img {
     background-color: rgb(169, 178, 185);
+    height: 40px;
   }
 
   .container-icons5 {
@@ -675,6 +679,10 @@ footer {
 
   .icon1:hover {
     background-color: rgb(223, 223, 223);
+  }
 
+  .pie {
+    position: relative;
+    top: 80px;
   }
 }
