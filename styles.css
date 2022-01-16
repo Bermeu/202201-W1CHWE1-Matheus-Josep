@@ -247,7 +247,11 @@ h1 {
   text-decoration: none;
 }
 
-.categories-anchor a:hover {
+/*.categories-anchor a:hover {
+  text-decoration: underline;
+}*/
+
+a:hover {
   text-decoration: underline;
 }
 
