@@ -377,7 +377,7 @@ a:hover {
 .fa-instagram-square,
 .fa-pinterest-square,
 .fa-youtube-square {
-  margin: 0 5px;
+  margin-right: 5px;
   font-size: 27px;
 }
 
@@ -688,26 +688,50 @@ footer {
 
   .contact {
     display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background-color: #f8f8f8;
+  }
+
+  .follow-us {
+    align-items: flex-start;
+    justify-content: center;
   }
 
   .follow-us__icons,
   .newsletter-privacy {
     border-bottom: none;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .contact-info {
     align-items: flex-start;
-    flex-grow: 1;
   }
 
   .contact-info--icon {
     display: flex;
     align-items: center;
+    padding: 0;
   }
 
   .fa-envelope,
   .fa-shopping-cart,
   .fa-info-circle {
     margin: 0 15px;
+  }
+
+  .newsletter-signup {
+    align-items: flex-start;
+  }
+
+  form,
+  .newsletter-privacy,
+  .newsletter-signup {
+    justify-content: flex-start;
+  }
+
+  input[type="text"] {
+    margin-left: 0;
   }
 }
