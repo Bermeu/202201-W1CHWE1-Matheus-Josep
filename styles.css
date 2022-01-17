@@ -691,18 +691,17 @@ footer {
     justify-content: center;
     align-items: baseline;
     background-color: #f8f8f8;
+    padding-bottom: 50px;
   }
 
   .follow-us {
     align-items: flex-start;
-    justify-content: center;
   }
 
   .follow-us__icons,
   .newsletter-privacy {
     border-bottom: none;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0;
   }
 
   .contact-info {
