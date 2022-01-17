@@ -595,9 +595,6 @@ footer {
     gap: 40px;
   }
 
-  /* .header-row2 {
-  } */
-
   .container-buttons {
     display: flex;
     flex-direction: row;
@@ -684,5 +681,26 @@ footer {
   .pie {
     position: relative;
     top: 80px;
+  }
+
+  .categories {
+    display: flex;
+    height: 400px;
+    width: 700px;
+    flex-wrap: wrap;
+  }
+
+  .category-image.image3 {
+    display: flex;
+    margin: 10px;
+    width: 200px;
+    height: 320px;
+  }
+
+  .header-desktop-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 }
